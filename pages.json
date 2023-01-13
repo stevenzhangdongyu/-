@@ -1,0 +1,189 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"transparentTitle": "always"
+			}
+		},
+		{
+			"path": "pages/register/register1",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "Step 1"
+			}
+		},
+		{
+			"path": "pages/register/register2",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "Step 2"
+			}
+		},
+		{
+			"path": "pages/register/register3",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "Step 3"
+			}
+		},
+		
+		{
+			"path": "pages/fgt_psw/fgt_psw",
+			"style": {
+				"transparentTitle": "always"
+				// "navigationBarBackgroundColor": "#00aaff"
+				// "navigationBarTextStyle": "white"
+				// "navigationBarTitleText": "Step 1"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/guide/guide",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新生指南",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00aaff"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/search/search",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "数据统计",
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/me/me",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		},
+		{
+			"path": "pages/modify/modify",
+			"style": {
+				"navigationBarTitleText": "请修改信息",
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/psw_change/psw_change",
+			"style": {
+				"navigationBarTitleText": "请修改密码",
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/fgt_psw/fgt_psw1"
+		},
+		{
+			"path": "pages/fgt_psw/page3",
+			"style": {
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "Step 1"
+			}
+		},
+		{
+			"path": "pages/fgt_psw/page4",
+			"style": {
+				"navigationBarBackgroundColor": "#00aaff",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "Step 2"
+			}
+		},
+		{
+		    "path" : "pages/guide1/guide1",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新生指南",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00aaff"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/guide1/guide2",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新生指南",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00aaff"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/guide1/guide3",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新生指南",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00aaff"
+		    }
+		    
+		}
+		
+	],
+	"globalStyle": {},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#515151",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/首页(1).png"
+				
+			},
+			{
+				"pagePath": "pages/guide/guide",
+				"text": "新生指南",
+				"iconPath": "static/使用指南.png"
+				
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "数据统计",
+				"iconPath": "static/数据统计.png"
+				
+				
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "个人信息",
+				"iconPath": "static/个人信息(1).png"
+				
+				
+			}
+		]
+	}
+}
